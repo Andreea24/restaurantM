@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	</head>
+<body onload="drawProduse();">
+    <div class="page">
+        <div class="header">
+            <p id="title"><a href="index.html">Cald si bun</a></p>    
+            <span class="Scontact"><input type="button" id="contact1" value="Contact" onclick="location.href = 'contact.html';"/></span>
+        </div>
+        <div class="container">
+            <form>
+                <input name="ingrediente" id="ingrediente" type="text" onkeypress="return searchKeyPress(event);" placeholder="Cauta dupa ingrediente ..."/>
+                <input type="button" id="btn" value="Cauta in ingrediente" onclick="drawProduse()"/>
+            </form>
+        </div>
+        <br />
+        <table id="listaProduse">
+            <tbody></tbody>
+        </table>
+    </div>
+</body>
+</html>

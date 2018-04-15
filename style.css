@@ -1,0 +1,140 @@
+ body{
+                background-color: #bbf4ed;
+            }
+        .page{
+            display:flex;
+            flex-direction: column;
+            padding:1em;      
+            }
+        .header{
+             display: flex;
+        }
+        #title{
+            font-size:2.4em;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            margin-left: 1em;
+            flex:3;
+            }
+        #title a{color:black;text-decoration: none;}
+        .Scontact{
+            flex:1;
+            margin-top:3em;
+                }
+        .menu{
+                display:inline-flex;
+            }
+        #contact1 {
+            background-color: #63a0e6;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 12px;
+            text-decoration: none;
+            border:none;
+            margin-left:6em;
+                }
+        #contact1:hover {
+            background-color: #10116e;
+            text-decoration: none;
+            color:#fff;
+                }
+        .container{ 
+                margin-left:1.5em;
+                    }
+        input{
+                font-size: 15px;
+             }
+        input[type="text"]{
+                     width:30%; 
+                     padding:0.57em; 
+                     border: 0px solid #ccc; 
+                     box-shadow: 0 4px 2px -2px gray;
+                     }
+        #btn{
+            background-color: #bca7dc;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 14px;
+            padding: 10px;
+            text-decoration: none;
+            border:none;
+            }
+        #btn:hover {
+                background-color: #752985;
+                text-decoration: none;
+                }
+        #listaProduse{
+            border-collapse: collapse;
+            table-layout: fixed;
+            width: 100%;
+        }
+        td{
+            padding:1em;
+        }
+        #despre{
+            width:65%;
+            }
+        .imagineClass{                        
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+        }
+        .imagineClassFull{                        
+                display: block;
+                width: 30%;
+                margin-left: -1.5em;
+        }
+        .numeClassFull{
+                font-weight: bold;
+                font-size:22px;
+                margin-left:-1em;
+                font-family:Arial, Helvetica, sans-serif;
+        }
+        .numeClass{
+                font-weight: bold;
+                font-size:22px;
+                margin-left:1em;
+                font-family:Arial, Helvetica, sans-serif;
+        }
+        .ingredienteClassFull{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                margin-left:-1em;
+                font-style: italic;
+        }
+        .retetaClassFull{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:14px;
+                margin-left:-1em;
+        }
+        .ingredienteClass{
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                margin-left:1.5em;
+        }
+        .btnDetaliu{
+            background-color: #df4562;
+            border-radius: 3px;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 12px;
+            text-decoration: none;
+            border:none;
+        }
+        .btnDetaliu:hover {
+                background-color: #a7354a;
+                text-decoration: none;
+                }
+        .detaliu{
+            list-style-type: none;
+        }
+        #map {
+            width: 85%;
+            height: 400px;
+            background-color: grey;
+          }
